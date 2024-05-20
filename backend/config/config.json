@@ -1,0 +1,19 @@
+{
+    "development": {
+        "username": "postgres",
+        "password": "admin65",
+        "database": "iProject",
+        "host": "127.0.0.1",
+        "dialect": "postgres"
+    },
+    "test": {
+        "username": "postgres",
+        "password": "admin65",
+        "database": "iProject_test",
+        "host": "127.0.0.1",
+        "dialect": "postgres"
+    },
+    "production": {
+        "use_env_variable": "DATABASE_URL"
+    }
+}
